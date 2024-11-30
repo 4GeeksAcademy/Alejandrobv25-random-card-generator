@@ -23,3 +23,6 @@ body {
   transform: rotate(180deg);
   align-self: flex-end;
 }
+#valor {
+  font-size: 100px;
+}

@@ -7,7 +7,7 @@ window.onload = function() {
   let palos = ["♦", "♥", "♠", "♣"];
   let valores = [
     "A",
-    "1",
+    "2",
     "3",
     "4",
     "5",
@@ -20,8 +20,8 @@ window.onload = function() {
     "Q",
     "K"
   ];
-  let palosRandom = palos[Math.floor(Math.random() * palos.lenght)];
-  let valoresRandom = valores[Math.floor(Math.random() * valores.lenght)];
+  let palosRandom = palos[Math.floor(Math.random() * palos.length)];
+  let valoresRandom = valores[Math.floor(Math.random() * valores.length)];
 
   let iconoArriba = document.querySelector("#iconoArriba");
   let iconoAbajo = document.querySelector("#iconoAbajo");
